@@ -1,0 +1,47 @@
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Regular.ttf") format("truetype"),
+         url("./ttf/Inter_24pt-Regular.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Bold.ttf") format("trueyype"),
+         url("./ttf/Inter_24pt-Bold.ttf") format("trueyype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Black.ttf") format("trueyype"),
+         url("./ttf/Inter_24pt-Black.ttf") format("trueyype");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Thin.ttf") format("trueyype"),
+         url("./ttf/Inter_24pt-Thin.ttf") format("trueyype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Light.ttf") format("trueyype"),
+         url("./ttf/Inter_24pt-Light.ttf") format("trueyype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("./ttf/Inter_18pt-Medium.ttf") format("trueyype"),
+         url("./ttf/Inter_24pt-Medium.ttf") format("trueyype");
+    font-weight: 500;
+}
+
+body {
+    font-family: "Inter";
+    font-size: 100%;
+}
