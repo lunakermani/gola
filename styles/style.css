@@ -43,7 +43,7 @@ p.gray {
 
 article.welcome {
     background-color: #f8f8f8;
-    padding: 1.5rem 2.5rem;
+    padding: 1.5rem 2rem;
     align-items: center;
 }
 article.welcome h1 {
@@ -59,7 +59,7 @@ article.welcome p {
 }
 
 section.start {
-    margin: 2rem;
+    margin: 2.5rem;
 }
 section.start h2 {
     font-weight: 100;
@@ -90,4 +90,89 @@ div.see-all a ,
 div.assets p {
     font-size: small;
     color: #242424;
+}
+
+section.webflow h2 ,
+section.framer h2 {
+    font-weight: normal;
+    color: #242424;
+    margin: 3rem 2.5rem 0;
+}
+section.free-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: #f8f8f8;
+    color: #242424;
+    margin: 1.5rem 2.5rem;
+    padding: 1rem;
+}
+div.logo img {
+    width: 50px;
+    height: 50px;
+}
+div.text p.text1 {
+    font-size: large;
+    color: #242424;
+    margin-bottom: 0;
+}
+div.text p.text2 {
+    font-size: smaller;
+    color: #242424;
+    margin-top: 0.2rem;
+}
+div.link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+}
+div.link1 a , div.link3 a {
+    font-size: smaller;
+    color: #242424;
+}
+div.link2 a , div.link4 a {
+    font-size: smaller;
+    color: #ffffff;
+}
+div.link2 {
+    background-color: #4353FF;
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+}
+div.link4 {
+    background-color: #000000;
+    border-radius: 0.2rem;
+    padding: 0.6rem;
+}
+div.link img {
+    width: 10px;
+    height: 10px;
+}
+
+section.license {
+    margin: 2.5rem;    
+}
+section.license h2 {
+    font-weight: 100;
+    color: #242424;
+}
+section.box {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: #f8f8f8;
+}
+section.box img {
+    width: 25px;
+    height: 25px;
+    padding: 2rem 1rem 2rem 2rem;
+}
+section.box p {
+    line-height: 1.2rem;
+    font-weight: 100;
+    color: #242424;
+    padding: 1rem;
 }
